@@ -54,7 +54,7 @@ Wichtig: das verwendete Image `nginxinc/nginx-unprivileged` hört im Container a
 Mappe daher den Host-Port auf den Container-Port 8080. Beispiel (nur auf localhost):
 
 ```bash
-podman rm -f homepage_local || true
+podman rm -f homepage_local
 podman run -d --name homepage_local -p 127.0.0.1:8080:8080 homepage:local
 ```
 

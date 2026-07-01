@@ -2,10 +2,11 @@ export function ProfileCard() {
   return (
     <div className="card profile-card">
       <p>
-        Ich bin ein:e engagierte:r Softwareentwickler:in mit langjähriger Erfahrung
-        in der Entwicklung von skalierbaren Webanwendungen und Cloud-Infrastrukturen.
-        Mein Fokus liegt auf klaren Architekturen, automatisierten Deployments und
-        effizienter Zusammenarbeit im Team.
+         Ich bin ein erfahrener Software & Lösungsarchitekt mit über 10 Jahren Praxis in Entwicklung, 
+          Architektur und DevOps. Spezialisiert bin ich auf Microservice-Architekturen, 
+          Infrastrukturautomatisierung und strategische Technologieführung. 
+          Ich bringe Entwickler:innen weiter, etabliere robuste Plattformen und übersetze Ideen 
+          in skalierbare Systeme.
       </p>
       <ul>
         <li>Strategische Planung von Softwareprojekten</li>
