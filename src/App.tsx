@@ -1,18 +1,16 @@
 import { Section } from './components/Section';
-import { Pill } from './components/Pill';
 import { SkillsGrid } from './components/SkillsGrid';
 import { ProfileCard } from './components/ProfileCard';
 import { ExperienceItem } from './components/ExperienceItem';
 import { RoleCard } from './components/RoleCard';
 import { values, experiences, education, languages, skillGroups } from './data';
-import avatar from './assets/avatar-placeholder.svg';
 
 function App() {
   return (
     <div className="app">
       <header className="hero">
         <div className="hero-inner">
-          <img src={avatar} alt="Avatar" className="avatar" />
+          <img src="1654151182770.jpg" alt="Avatar" className="avatar" />
           <div className="hero-text">
             <p className="eyebrow">Persönliche Homepage</p>
             <h1>Tim Bensberg</h1>
@@ -27,7 +25,7 @@ function App() {
               <a href="https://github.com/reekind" target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/tim-bensberg/" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
             </div>
