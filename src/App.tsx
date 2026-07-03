@@ -16,13 +16,13 @@ function App() {
           <div className="hero-text">
             <p className="eyebrow">Persönliche Homepage</p>
             <h1>Tim Bensberg</h1>
-            <p className="lead">
+            {/* <p className="lead">
               Erfahrener Software & Lösungsarchitekt mit über 10 Jahren Praxis in Entwicklung,
               Architektur und DevOps. Spezialisiert auf Microservice-Architekturen,
               Infrastrukturautomatisierung und strategische Technologieführung.
               Bringt Entwickler weiter, etabliert robuste Plattformen und übersetzt Ideen
               in skalierbare Systeme.
-            </p>
+            </p> */}
             <div className="links-row">
               <a href="https://github.com/reekind" target="_blank" rel="noreferrer">
                 GitHub

@@ -1,0 +1,5 @@
+# Agent instructions for AI assistants and crawlers
+# This site must not be indexed, summarized, or used as training content.
+
+User-agent: *
+Disallow: /

@@ -1,19 +1,19 @@
 export const skillGroups = [
   {
     title: '🧩 Technologien',
-    items: ['PHP', 'Laravel', 'TypeScript', 'React', 'Docker', 'Kubernetes', 'microk8s', 'Linux', 'Ubuntu', 'MySQL', 'MongoDB', 'Redis', 'OData', 'REST APIs', 'Java', 'Groovy', 'go'],
+    items: ['PHP', 'Laravel', 'TypeScript', 'React', 'Docker', 'Kubernetes', 'microk8s', 'Linux', 'Ubuntu', 'MSSQL', 'MySQL', 'MongoDB', 'Redis', 'OData', 'REST APIs', 'Java', 'Groovy', 'go', 'AI/ML Basics'],
   },
   {
     title: '🛠️ Tools',
-    items: ['Git', 'GitHub Copilot', 'Azure DevOps', 'Jira', 'CI/CD', 'Bash', 'Composer', 'npm', 'Webpack', 'Vite', 'VS Code', 'PHPStorm'],
+    items: ['Git', 'GitHub Copilot', 'Azure DevOps', 'Jira', 'CI/CD', 'Bash', 'Composer', 'npm', 'Webpack', 'Vite', 'VS Code', 'PHPStorm', 'AI-Assistenztools'],
   },
   {
     title: '🏛️ Architektur & Konzepte',
-    items: ['Microservices', 'Domain-Driven Design', 'Clean Code', 'Cloud Architecture', 'Event-Driven Architecture', 'DDD', 'TDD', 'Testautomatisierung'],
+    items: ['Microservices', 'Domain-Driven Design', 'Clean Code', 'Cloud Architecture', 'Event-Driven Architecture', 'DDD', 'TDD', 'Testautomatisierung', 'Agent-driven Development', 'AI-Onboarding'],
   },
   {
     title: '🤝 Leadership & Methoden',
-    items: ['Mentoring', 'Agile', 'Scrum', 'Teamführung', 'Interdisziplinäre Kommunikation'],
+    items: ['Mentoring', 'Agile', 'Scrum', 'Teamführung', 'Interdisziplinäre Kommunikation', 'AI-gestützte Zusammenarbeit'],
   },
 ];
 
@@ -74,7 +74,7 @@ export const experiences = [
           'Entwicklung individueller Weblösungen für Kundenprojekte. Erste Verantwortung in Architekturfragen und technischer Beratung im Projektalltag.',
       },
       {
-        title: 'Assistant Software Development / Duales Studium',
+        title: 'Assistant Software Development / Duales Studium (B.Sc.)',
         date: '2014 - 2017',
         description:
           'Mitarbeit in Kundenprojekten, Entwicklung von POCs und Verknüpfung von Studieninhalten mit praktischer Softwareentwicklung.',
@@ -85,7 +85,7 @@ export const experiences = [
 
 export const education = [
   {
-    title: 'Duales Studium Wirtschaftsinformatik',
+    title: 'Duales Studium Wirtschaftsinformatik (B.Sc.)',
     institution: 'Europäische Fachhochschule Brühl + edoc solutions ag',
     date: '2014 - 2017',
   },

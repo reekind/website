@@ -42,6 +42,15 @@ npm run preview
 
 ## Container / Podman
 
+## SEO / AI-Files
+
+Die Seite enthält jetzt einfache Dateien für Suchmaschinen und Assistenten:
+- `public/robots.txt`
+- `public/agent.txt`
+
+Passt du die Inhalte an, wenn du spezielle Regeln für Crawler oder KI-Assistenten definieren möchtest.
+
+
 Dieses Repository liefert ein statisches Build, das in einem Container mit einem non-root Nginx-Image bereitgestellt wird.
 
 Baue das Image mit Podman:
