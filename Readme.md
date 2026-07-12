@@ -42,6 +42,17 @@ npm run preview
 
 ## Container / Podman
 
+## Passwortschutz
+
+Die Seite kann mit einem einfachen Passwort geschützt werden.
+Standardmäßig ist das Passwort `changeme`. Für ein anderes Passwort setzt du vor dem Start:
+
+```bash
+PASSWORD=mein-passwort npm run dev
+```
+
+Dann erreichst du die Login-Seite unter `http://localhost:3000/login`.
+
 ## SEO / AI-Files
 
 Die Seite enthält jetzt einfache Dateien für Suchmaschinen und Assistenten:
